@@ -1,0 +1,87 @@
+site_name: Java Interview Prep
+site_description: Java 21 interview prep notes, patterns, and practice problems.
+site_url: https://alejandrosaezpz.github.io/java-interview-prep/
+repo_name: alejandrosaezpz/java-interview-prep
+repo_url: https://github.com/alejandrosaezpz/java-interview-prep
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  icon:
+    logo: material/book-education
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/alejandrosaezpz/java-interview-prep
+      name: GitHub repository
+
+nav:
+  - Home: index.md
+  - Topics:
+      - 01. Java Basics: 01-java-basics.md
+      - 02. Big O: 02-big-o.md
+      - 03. Arrays: 03-arrays.md
+      - 04. Strings: 04-strings.md
+      - 05. HashMap & HashSet: 05-hashmap-hashset.md
+      - 06. ArrayList & Java Collections: 06-arraylist-java-collections.md
+      - 07. Stack, Queue & Deque: 07-stack-queue-deque.md
+      - 08. Sorting: 08-sorting.md
+      - 09. Two Pointers: 09-two-pointers.md
+      - 10. Sliding Window: 10-sliding-window.md
+      - 11. Prefix Sum: 11-prefix-sum.md
+      - 12. Binary Search: 12-binary-search.md
+      - 13. Recursion: 13-recursion.md
+      - 14. Linked List: 14-linked-list.md
+      - 15. Trees: 15-trees.md
+      - 16. Heap & PriorityQueue: 16-heap-priorityqueue.md
+      - 17. Graphs: 17-graphs.md
+      - 18. Backtracking: 18-backtracking.md
+      - 19. Dynamic Programming: 19-dynamic-programming.md
+      - 20. Bit Manipulation: 20-bit-manipulation.md
+      - 21. Greedy: 21-greedy.md
+      - 22. Mock Assessments: 22-mock-assessments.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true

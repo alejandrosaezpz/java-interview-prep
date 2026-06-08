@@ -18,6 +18,7 @@ Phase 1 includes fully written docs for topics 01-07 and 17 starter problems acr
 - [Who this repository is for](#who-this-repository-is-for)
 - [How to use it](#how-to-use-it)
 - [How to run tests](#how-to-run-tests)
+- [Documentation website](#documentation-website)
 - [Study methodology](#study-methodology)
 - [Roadmap](#roadmap)
 - [Repository status](#repository-status)
@@ -62,6 +63,16 @@ It combines:
 ```bash
 mvn test
 ```
+
+## Documentation website
+
+This repository can also be published as a GitHub Pages site with MkDocs.
+
+- source: `docs/`
+- config: `mkdocs.yml`
+- deploy workflow: `.github/workflows/pages.yml`
+
+When Pages is enabled, the site will present the topic docs in a browsable format.
 
 ## Study methodology
 

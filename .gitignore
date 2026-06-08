@@ -1,4 +1,6 @@
 target/
+.venv/
+site/
 .idea/
 *.iml
 .DS_Store
